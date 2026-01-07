@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard • INAYA</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/dashboard.css" />
+</head>
+<body>
+<nav class="nav">
+  <a href="#" id="logout">Logout</a>
+  <a href="dashboard.html">Home</a>
+  <a href="journal.html">Journal</a>
+  <a href="sleep.html">Sleep</a>
+</nav>
+
+  <div class="container">
+    <header class="header">
+      <h1 class="logo">INAYA</h1>
+      <p class="tagline">How are you feeling right now?</p>
+    </header>
+
+    <!-- Mood Section -->
+    <div class="card">
+      <h2>Mood check-in</h2>
+      <div class="moods">
+        <button>😔</button>
+        <button>😟</button>
+        <button>😐</button>
+        <button>🙂</button>
+        <button>😊</button>
+      </div>
+    </div>
+
+    <!-- Journal -->
+    <div class="card">
+      <h2>Journal</h2>
+      <p class="text">Write whatever feels heavy. This space is yours.</p>
+      <a href="journal.html" class="btn secondary">Open Journal</a>
+    </div>
+
+    <!-- Sleep -->
+    <div class="card">
+      <h2>Sleep & Calm</h2>
+      <p class="text">Gentle guidance to help you slow down.</p>
+      <a href="sleep.html" class="btn primary">Start</a>
+    </div>
+
+    <footer class="footer">
+      <p>You are doing enough.</p>
+    </footer>
+  </div>
+
+<script src="js/mood.js"></script>
+<script src="js/logout.js"></script>
+</body>
+</html>

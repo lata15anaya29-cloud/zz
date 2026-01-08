@@ -1,0 +1,20 @@
+.moods {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.moods button {
+  background: #f4f1fb;
+  border: none;
+  font-size: 22px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.moods button:hover {
+  background: #e9e5ff;
+  transform: translateY(-2px);
+}

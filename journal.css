@@ -1,0 +1,40 @@
+textarea {
+  width: 100%;
+  min-height: 180px;
+  resize: none;
+  padding: 14px;
+  margin-top: 15px;
+  border-radius: 14px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  line-height: 1.6;
+  outline: none;
+  background: #faf9ff;
+}
+
+textarea:focus {
+  border-color: #9f91ff;
+  box-shadow: 0 0 0 2px rgba(159, 145, 255, 0.15);
+}
+
+.journal-actions {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+textarea {
+  transition: box-shadow 0.2s ease, border 0.2s ease;
+}
+
+@media (max-width: 480px) {
+  textarea {
+    min-height: 220px;
+    font-size: 15px;
+  }
+
+  .journal-actions {
+    flex-direction: column;
+    gap: 12px;
+  }
+}
